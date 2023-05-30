@@ -1,0 +1,200 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 99px;
+
+  padding: 24px 56px 253px;
+  border-radius: 40px;
+  background-color: #fff;
+  margin-top: 50px;
+
+  width: 1025px;
+  height: 1024px;
+}
+
+.drag {
+  width: 168px;
+  height: 68px;
+  background: #e5d8ea;
+  margin-inline: auto;
+  margin-block: 999px;
+}
+
+/* Card Header */
+.header h1 {
+  font-size: 35px;
+  line-height: 48px;
+
+  width: 673px;
+  height: 48px;
+  color: #372d3b;
+}
+
+.header span {
+  color: #864293;
+}
+
+.header p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  width: 421px;
+  height: 30px;
+  color: #372d3b;
+}
+/*-------------------*/
+
+/* Card Body */
+.body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+/* Driver */
+.driver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.avatar img {
+  width: 138px;
+  height: 138px;
+
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #f8f8fc;
+  background: #372d3b;
+  border-radius: 999px;
+  height: 32px;
+  width: 100px;
+
+  gap: 10px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: -32px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #372d3b;
+
+  margin-top: 6px;
+}
+/*------------------*/
+
+/* Car */
+.car img {
+  margin-left: -50px;
+}
+
+.plate {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+
+  color: #372d3b;
+}
+
+.model {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #372d3b;
+}
+/*------------------*/
+
+/* Footer */
+.footer {
+  display: flex;
+  gap: 32px;
+
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  background: #f5edf7;
+  border-radius: 24px;
+
+  height: 64px;
+
+  flex: 3;
+  align-items: center;
+
+  padding: 0 32px;
+}
+
+.wrapper input {
+  width: 100%;
+
+  border: 0;
+  background-color: transparent;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #372d3b;
+}
+
+.wrapper input:focus {
+  outline: 0;
+}
+
+.wrapper:focus-within {
+  outline: 3px solid black;
+}
+
+.icons {
+  font-size: 48px;
+  color: #00875f;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px 24px 14px;
+
+  gap: 10px;
+
+  width: 108px;
+  height: 48px;
+
+  background: #00875f;
+  border-radius: 8px;
+
+  color: #ffffff;
+}
+/*------------------*/
+
+/* .coments {
+} */

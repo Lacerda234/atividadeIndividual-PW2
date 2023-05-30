@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialised;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-family: Inter;
+  font-weight: 500;
+}
+
+body {
+  background-color: #121214;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
