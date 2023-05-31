@@ -5,7 +5,7 @@ export const Comment = () => {
   return (
     <>
       <div className={styles.commentCard}>
-        <div className={styles.coment}>
+        <div className={styles.comment}>
           <img src="https://i.ibb.co/XpGtSSR/Rectangle-4234.png" alt="mulher" />
           <p>
             Leandro estou no local já lhe esperando. estou de blusa azul e calça
@@ -24,7 +24,6 @@ export const Comment = () => {
           </div>
         </div>
       </div>
-      ;
     </>
   );
 };
